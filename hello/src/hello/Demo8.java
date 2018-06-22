@@ -9,7 +9,7 @@ public class Demo8 {
 		String nomEtudiant = "Martin";
 		String note = "A";
 		try {
-			PrintWriter sortie = new PrintWriter(new FileOutputStream("/Users/elabadli/eclipse-workspace/hello/etudiant.txt"));
+			PrintWriter sortie = new PrintWriter(new FileOutputStream("etudiant.txt"));
 			sortie.println(prenomEtudiant);
 			sortie.println(nomEtudiant);
 			sortie.println(note);
